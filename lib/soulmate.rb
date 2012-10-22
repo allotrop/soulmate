@@ -13,7 +13,8 @@ module Soulmate
   extend self
 
   MIN_COMPLETE = 2
-  DEFAULT_STOP_WORDS = ["vs", "at", "the"]
+  #DEFAULT_STOP_WORDS = ["vs", "at", "the"]
+  DEFAULT_STOP_WORDS = []
 
   def redis=(url)
     @redis = nil
